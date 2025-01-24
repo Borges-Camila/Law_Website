@@ -5,4 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto mono", sans-serif;
+  color: #ebebeb;
+}
+
+body {
+  background-color: #d9d9d9;
+  margin: 0 auto;
+}
+
+.header {
+  max-height: 200px;
+  background-color: rgb(1, 4, 49);
 }
