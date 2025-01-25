@@ -13,7 +13,7 @@ body {
 }
 
 .header {
-  max-height: 200px;
+  height: 100px;
   background-color: rgb(1, 4, 49);
   padding: 20px;
   display: flex;
@@ -69,4 +69,8 @@ body {
   background-color: #ebebeb;
   color: rgb(1, 4, 49);
   cursor: pointer;
+}
+
+.content {
+  padding-top: 100px;
 }
