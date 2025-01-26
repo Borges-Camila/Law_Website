@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #efefef;
+  background-color: #ebebeb;
   margin: 0 auto;
 }
 
@@ -144,16 +144,51 @@ body {
 }
 
 .home-team {
-  background-image: url("../images/fundo-escritorio-claro.jpg");
+  background-image: url("../images/fundo-claro-modificado.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  z-index: -1;
+}
+
+.home-team__title {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 600;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: rgb(1, 4, 49);
+}
+
+.home-team__grid {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .home-team__photo {
-  width: 100px;
-  border: 4px solid rgb(255, 255, 255);
+  width: 200px;
+  border: 1px solid rgba(1, 4, 49, 0.829);
   border-radius: 10px;
+}
+
+.home-team__button {
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 13px;
+  border: 5px solid rgb(1, 4, 49);
+  color: rgb(1, 4, 49);
+  border-radius: 15px;
+  background-color: #ebebeb;
+  margin: 10px 450px 20px;
+}
+
+.home-team__button:hover {
+  border: 5px solid #ebebeb;
+  color: #ebebeb;
+  background-color: rgb(1, 4, 49);
+  font-weight: 600;
 }
