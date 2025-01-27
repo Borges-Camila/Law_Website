@@ -1,7 +1,7 @@
 # Law_Website
 
 <h1 align="center">
-  <p>Acessar <a href="https://borges-camila.github.io/Law_Website/">Abra aqui</a></p>
+  <p>Acessar <a href="https://borges-camila.github.io/Law_Website/">aqui</a></p>
   
 </h1>
  
