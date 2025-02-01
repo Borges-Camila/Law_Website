@@ -1,0 +1,76 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/fundo-claro-modificado.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.home-content {
+  padding: 150px 100px 80px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.home-info__title {
+  font-family: "noto serif";
+  font-weight: 500;
+  font-style: italic;
+  font-size: 58px;
+  line-height: 72px;
+  font-weight: 700;
+  max-width: 600px;
+  color: rgb(1, 4, 49);
+}
+
+.home-info__subtitle {
+  max-width: 600px;
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(1, 4, 49);
+}
+
+.home-tag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 15px solid rgb(1, 4, 49);
+  padding: 10px 20px;
+  height: 220px;
+  margin-top: 60px;
+}
+
+.home-tag__title {
+  font-size: 20px;
+  line-height: 30px;
+  color: rgb(156, 0, 0);
+}
+
+.home-tag__subtitle {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.home-tag__button {
+  margin: 15px;
+  padding: 5px;
+  width: 80px;
+  border: 5px solid rgb(156, 0, 0);
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.home-tag__button:hover {
+  border: 8px solid rgb(236, 0, 0);
+  background-color: rgba(1, 4, 49, 0.651);
+  cursor: pointer;
+}
