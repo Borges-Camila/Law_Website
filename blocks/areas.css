@@ -7,11 +7,11 @@
 }
 
 .areas__title {
-  font-size: 30px;
+  font-size: 40px;
   font-family: "noto serif";
-  line-height: 30px;
+  line-height: 45px;
   font-weight: 700;
-  color: rgb(1, 4, 49);
+  color: #021d35;
   margin: 0;
 }
 
@@ -68,7 +68,7 @@
 .areas__card-name {
   font-size: 18px;
   max-width: 190px;
-  color: rgb(1, 4, 49);
+  color: #021d35;
   font-family: "noto serif";
 }
 
