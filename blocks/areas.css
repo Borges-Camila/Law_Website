@@ -1,9 +1,9 @@
 .areas {
   display: flex;
   flex-direction: column;
-  padding: 50px 100px;
+  padding: 80px 100px 100px;
   align-items: center;
-  background-color: #8198aa;
+  background-color: #beccd4;
 }
 
 .areas__title {
@@ -12,42 +12,69 @@
   line-height: 30px;
   font-weight: 700;
   color: rgb(1, 4, 49);
-  padding-bottom: 15px;
+  margin: 0;
 }
 
 .areas__subtitle {
-  max-width: 700px;
+  max-width: 750px;
   text-align: center;
   color: rgb(1, 4, 49);
-  padding-bottom: 20px;
+  margin-top: 20px;
   font-size: 16px;
 }
 
 .area__cards {
   display: flex;
   gap: 25px;
+  margin-top: 30px;
 }
 
 .areas__card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #eff6f3;
+  padding: 15px;
+  max-width: 220px;
+}
+
+.areas__card:hover {
+  background-color: #8198aa;
+}
+
+.areas__card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .areas__card-img {
   width: 40px;
+  background-color: #d1bea8;
+  padding: 5px;
+}
+
+.areas__card-btn {
+  width: 40px;
+  border: 1px solid #eff6f3;
+  border-radius: 50%;
+  padding: 5px;
+}
+.areas__card-btn:hover {
+  border: 2px solid white;
+  background-color: #374653;
+  cursor: pointer;
 }
 
 .areas__card-name {
   font-size: 18px;
-  text-align: center;
+  max-width: 190px;
   color: rgb(1, 4, 49);
   font-family: "noto serif";
 }
 
 .areas__card-text {
   font-size: 14px;
-  text-align: center;
+  margin-top: 5px;
+  max-width: 190px;
   color: rgb(1, 4, 49);
 }
