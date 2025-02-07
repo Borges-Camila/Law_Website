@@ -1,11 +1,22 @@
 .footer {
+  background-color: #21201e;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
 }
 
 .footer-social-icons {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
 }
 
 .footer-icon_img {
+  width: 40px;
 }
 
 .footer-adress {
+  color: #ebebeb;
+  font-size: 18px;
 }
