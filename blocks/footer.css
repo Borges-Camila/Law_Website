@@ -14,6 +14,12 @@
 
 .footer-icon_img {
   width: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer-icon_img:hover {
+  transform: scale(1.2) rotate(-8deg);
+  cursor: pointer;
 }
 
 .footer-adress {
