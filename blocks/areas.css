@@ -1,23 +1,53 @@
 .areas {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  align-items: center;
+  background-color: #8198aa;
 }
 
 .areas__title {
+  font-size: 30px;
+  font-family: "noto serif";
+  line-height: 30px;
+  font-weight: 700;
+  color: rgb(1, 4, 49);
+  padding-bottom: 15px;
 }
 
 .areas__subtitle {
+  max-width: 700px;
+  text-align: center;
+  color: rgb(1, 4, 49);
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 
 .area__cards {
+  display: flex;
+  gap: 25px;
 }
 
-.area__card {
+.areas__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eff6f3;
 }
 
 .areas__card-img {
+  width: 40px;
 }
 
 .areas__card-name {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(1, 4, 49);
+  font-family: "noto serif";
 }
 
 .areas__card-text {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(1, 4, 49);
 }
