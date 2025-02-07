@@ -12,7 +12,8 @@
 .home-content {
   padding: 150px 100px 80px 100px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 130px;
 }
 
 .home-info {
@@ -46,7 +47,7 @@
   align-items: center;
   border: 15px solid rgb(1, 4, 49);
   padding: 10px 20px;
-  height: 220px;
+  height: 240px;
   margin-top: 60px;
 }
 
@@ -62,15 +63,16 @@
 }
 
 .home-tag__button {
-  margin: 15px;
+  margin: 22px 15px;
   padding: 5px;
   width: 80px;
   border: 5px solid rgb(156, 0, 0);
   border-radius: 50px;
+  transition: transform 0.4s ease-in-out;
 }
 
 .home-tag__button:hover {
-  border: 8px solid rgb(236, 0, 0);
-  background-color: rgba(1, 4, 49, 0.651);
+  background-color: #beccd4;
   cursor: pointer;
+  transform: scale(1.2) rotate(30deg);
 }
