@@ -45,16 +45,15 @@
 }
 
 .header-contact {
-  color: #ebebeb;
+  color: rgb(1, 4, 49);
   font-weight: bold;
   font-size: 20px;
-  border: 1px solid #ebebeb;
+  background-color: #ebebeb;
   padding: 5px;
   border-radius: 10px;
 }
 
 .header-contact:hover {
-  background-color: #ebebeb;
-  color: rgb(1, 4, 49);
+  border: 4px solid #b10000;
   cursor: pointer;
 }

@@ -1,6 +1,7 @@
 .home {
   display: flex;
   flex-direction: column;
+  background-color: rgb(252, 252, 252);
   background-image: url("../images/fundo-claro-modificado.png");
   background-size: cover;
   background-position: center;
