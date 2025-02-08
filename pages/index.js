@@ -9,14 +9,16 @@ contactButton.addEventListener("click", function openContactPopup() {
   contactsPopup.classList.add("contacts-popup_change");
 });
 
-contactCloseBtn.addEventListener("click", function openContactPopup() {
+contactCloseBtn.addEventListener("click", function closeContactPopup() {
   contactsPopup.classList.remove("contacts-popup_change");
 });
 
-urgentButton.addEventListener("click", function openContactPopup() {
+urgentButton.addEventListener("click", function openUrgentPopup() {
   urgentPopup.classList.add("urgent-popup_change");
 });
 
-urgentCloseBtn.addEventListener("click", function openContactPopup() {
+urgentCloseBtn.addEventListener("click", function closeUrgentPopup() {
   urgentPopup.classList.remove("urgent-popup_change");
 });
+
+// adicionar o fechamento do popup com esc e click na sobreposição
