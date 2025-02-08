@@ -1,0 +1,63 @@
+.urgent-popup {
+  background-color: #beccd45e;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.urgent-popup_change {
+  display: flex;
+}
+
+.urgent-popup_content {
+  background-color: #8198aa;
+  border-radius: 10px;
+  max-width: 500px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.urgent-popup_title {
+  text-align: center;
+  font-family: "noto serif";
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #021d35;
+  margin-bottom: 20px;
+}
+
+.urgent-contact {
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.urgent-contact_obs {
+  font-size: 13px;
+  color: #eff6f3;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.urgent-popup_close-btn {
+  width: 35px;
+  border: 2px solid #273f5b;
+  border-radius: 50%;
+  padding: 3px;
+  margin: 8px 0 0;
+  transition: transform 0.4s ease-in-out;
+}
+.urgent-popup_close-btn:hover {
+  background-color: #273f5b91;
+  transform: scale(1.1);
+  cursor: pointer;
+}
