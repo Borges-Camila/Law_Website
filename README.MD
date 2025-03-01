@@ -10,7 +10,7 @@
 
 ## Tecnologias
 
-- Projeto elaborado utilizando HTML e CSS;
+- Projeto elaborado utilizando HTML, CSS e JavaScript;
 
 ## Ferramentas
 

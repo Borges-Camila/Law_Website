@@ -60,3 +60,54 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+
+@media (max-width: 1000px) {
+  .header-logo_img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .header-logo_name {
+    font-size: 26px;
+  }
+
+  .header-nav {
+    column-gap: 20px;
+  }
+
+  .nav__link {
+    text-decoration: none;
+    color: #eff6f3;
+    font-size: 15px;
+  }
+
+  .header-contact {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header-logo_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .header-logo_name {
+    font-size: 22px;
+  }
+  .header-contact {
+    font-size: 14px;
+  }
+}
