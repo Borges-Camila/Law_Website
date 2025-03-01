@@ -63,3 +63,86 @@
   max-width: 190px;
   color: rgb(1, 4, 49);
 }
+
+@media (max-width: 1000px) {
+  .areas {
+    padding: 70px 90px;
+  }
+
+  .area__cards {
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .areas__card {
+    width: 230px;
+  }
+
+  .areas__card-name {
+    font-size: 16px;
+  }
+
+  .areas__card-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .areas {
+    padding: 60px 50px;
+  }
+  .areas__title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .areas__subtitle {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 580px) {
+  .areas__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .areas__subtitle {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  .areas__card {
+    width: 100%;
+  }
+
+  .areas__card-name {
+    width: 100%;
+  }
+
+  .areas__card-text {
+    max-width: 410px;
+  }
+}
+
+@media (max-width: 320px) {
+  .areas {
+    padding: 50px 40px;
+  }
+  .areas__title {
+    font-size: 26px;
+    text-align: center;
+    line-height: 36px;
+  }
+
+  .areas__subtitle {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+
+  .areas__card-text {
+    font-size: 12px;
+  }
+}
