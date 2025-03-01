@@ -14,8 +14,8 @@
 - A base do projeto ainda está em andamento.
 
 - Detalhes do projeto:
-  <img src="./github/Detail-1.png" width="327">
-  <img src="./github/Detail-2.png" width="327">
+
+  <img src="./github/Detail-1.png" width="327"> <img src="./github/Detail-2.png" width="327">
 
 ## Tecnologias
 
