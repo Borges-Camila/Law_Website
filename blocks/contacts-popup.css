@@ -9,6 +9,7 @@
   display: none;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .contacts-popup_change {
@@ -99,4 +100,34 @@
   background-color: #273f5b91;
   transform: scale(1.1);
   cursor: pointer;
+}
+
+@media (max-width: 580px) {
+  .contacts-popup_content {
+    padding: 20px;
+  }
+
+  .contacts-title {
+    font-size: 24px;
+  }
+
+  .contacts-option_info {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .contacts-subtitle {
+    display: none;
+  }
+  .contacts-option_info {
+    font-size: 11px;
+  }
+
+  .contacts-obs {
+    font-size: 10px;
+  }
+  .contacts-popup_close-btn {
+    width: 38px;
+  }
 }
