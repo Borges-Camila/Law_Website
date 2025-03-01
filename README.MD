@@ -2,11 +2,20 @@
 
 <h1 align="center">
   <p>Acessar <a href="https://borges-camila.github.io/Law_Website/">aqui</a></p>
-  
+  <img src="./github/Page-1.png">
+  <img src="./github/Page-2.png">
+  <img src="./github/Page-3.png">
+  <img src="./github/Page-4.png">
+  <img src="./github/popup-1.png">
+  <img src="./github/popup-2.png">
 </h1>
  
 - Projeto referente a uma página de escritório de advocacia.
 - A base do projeto ainda está em andamento.
+
+- Detalhes do projeto:
+  <img src="./github/Detail-1.png" width="327">
+  <img src="./github/Detail-2.png" width="327">
 
 ## Tecnologias
 
